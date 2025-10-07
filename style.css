@@ -1,7 +1,9 @@
+/*Font Family*/
 @font-face {
   font-family: font1;
   src: url("./Font/raleway.semibold.ttf");
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +17,7 @@ body {
   width: 100%;
 }
 
+/*Main section*/
 main {
   height: 100vh;
   width: 100%;
@@ -26,6 +29,7 @@ main {
   overflow-x: hidden;
 }
 
+/*Card section*/
 .card {
   position: relative;
   height: 60%;
@@ -36,6 +40,8 @@ main {
   border-radius: 30px;
   overflow: hidden;
 }
+
+/*Card image section*/
 .card img {
   height: 100%;
   width: 100%;
@@ -44,6 +50,7 @@ main {
   border-radius: 30px;
 }
 
+/*Card Buttom div*/
 .bottom {
   height: 20%;
   width: 100%;
@@ -58,6 +65,7 @@ main {
   transition: all 0.3s ease;
 }
 
+/*Card Buttom div hover*/
 .card:hover .bottom {
   bottom: 0;
   /* transition: all 0.3s ease; */
@@ -72,6 +80,7 @@ main {
   color: aliceblue;
   font-size: 1rem;
 }
+/*Button starts here*/
 .btn{
     position: absolute;
     bottom: 20%;
